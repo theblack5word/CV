@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: 'metroregular';
+    src: url('police/Metro-webfont.eot');
+    src: url('police/Metro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/Metro-webfont.woff2') format('woff2'),
+         url('police/Metro-webfont.woff') format('woff'),
+         url('police/Metro-webfont.ttf') format('truetype'),
+         url('police/Metro-webfont.svg#metroregular') format('svg');
+}
+
+body
+{
+    background-image: url("images/chess.jpg") ;
+
+}
+
+h1
+{
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imageflottante
+{
+    float: left;
+}
+
+
+
+h2
+{
+	clear: both;
+    color: blue;
+    font-size: 1.5em;
+	font-style: italic;
+    font-family:'metroregular';
+    font-weight: normal;
+    text-align: center ;
+    border : 3px inset white ;
+    border-radius: 4px;
+    text-shadow: 2px 2px 4px darkblue;
+
+	}
+
+ul
+{
+    color: white;
+}
+
+ul:hover
+
+{
+    background-color: darkgreen;
+}
+
+em
+{
+    text-decoration: underline;
+}
+
+
+strong
+{
+    font-weight: bold;
+}
+
+
+#first
+{
+    display:flex;
+}
